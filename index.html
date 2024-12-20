@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Video</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop playsinline preload="auto">
+        <source src="https://drive.google.com/uc?id=1Yr2tU1QXWAKZtw5SUa0zOBcqd_54DWud&export=download" media="(min-width: 768px)" type="video/mp4">
+        <source src="https://drive.google.com/uc?id=1jIPZLJ0IcLfpVCYo8cjNTPltfSD7qKx4&export=download" media="(max-width: 767px)" type="video/mp4">
+        お使いのブラウザは動画再生に対応していません。
+    </video>
+</body>
+</html>
